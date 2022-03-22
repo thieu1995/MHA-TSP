@@ -8,7 +8,7 @@ https://github.com/thieu1995/mealpy
 ## Setup environments
 
 ```code 
-conda create -n new ml python==3.7.5
+conda create -n ml python==3.7.5
 conda activate ml
 
 pip install mealpy==2.4.0 
@@ -212,4 +212,20 @@ model = BBO.OriginalBBO(problem, epoch=10, pop_size=50)
 ```code 
 anim.save("name.mp4", writer="ffmpeg")
 anim.save("name.gif", write="imagemagick")
+```
+
+## Citations
+
+* If this code is useful for you, please give me some credits, [link](https://gist.github.com/thieu1995/2dcebc754bf0038d0c12b26ec9d591aa) to my first-author papers.
+
+```code 
+@software{thieu_nguyen_2020_3711949,
+  author       = {Nguyen Van Thieu},
+  title        = {A collection of the state-of-the-art MEta-heuristics ALgorithms in PYthon: Mealpy},
+  month        = march,
+  year         = 2020,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.3711948},
+  url          = {https://doi.org/10.5281/zenodo.3711948}
+}
 ```
